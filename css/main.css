@@ -1,0 +1,64 @@
+body {
+  font-family: Palatino;
+}
+
+.reading-list-item {
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #20437c;
+  border-radius: 5%;
+  background: #ddeaff;
+}
+
+.form-item {
+  margin-right: 1.8rem;
+}
+
+label.primary {
+  display: block;
+  margin: 0.4em 0;
+}
+
+label::after {
+  content: ":";
+}
+
+button, input[type="submit"] {
+  margin-top: 1rem;
+}
+
+#title {
+  font-size: large;
+  font-style: bold;
+  color: green;
+}
+
+#author {
+  font-size: medium;
+  font-style: italic;
+  color: orange;
+}
+
+#category {
+  font-size: small;
+  font-style: oblique;
+  color: red;
+}
+
+#save {
+  border: 20px;
+  border-color: rgba(0, 255, 255, 0.504);
+  border-radius: 10px;
+  background-color: aqua;
+  color: black;
+  padding: 10px;
+}
+
+#delete-all {
+  border: 520px;
+  border-color: rgba(255, 0, 0, 0.444);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: red;
+  color: white
+}
